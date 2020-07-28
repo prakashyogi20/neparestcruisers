@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Neparest Cruiser</title>
+	<link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+	<!--link for font icon-->
+  <link rel="stylesheet" type="text/css" href="file:///Users/YogiWorld/Documents/KCGI%20JAPAN/2ND%20SEMISTER/Web%20Programme%20E1/Final%20Project/Fonts/css/all.css">
+
+</head>
+<body>
+	<div class="header">
+    <div class="img">
+      <a target="_blank" href="Index.html">
+		<img src="Images/logo.jpg"></div>
+
+	</div>
+  
+
+
+
+<!--Header Navigation List-->
+
+<div class="topnav">
+	<a href="Index.html" class="active"><i class="fas fa-home"></i> Home</a>
+	<a href="Culture.html"><i class="fas fa-cloud-meatball"></i>Culture</a>
+	<a href="Destination.html"><i class="fas fa-map-marked-alt"></i>Destination</a>
+	<a href="Gallery.html"><i class="fas fa-images"></i>Gallery</a>
+	<a href="Contact.html"><i class="fas fa-address-card"></i>Contact</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+<div class="slideshow-container" style="padding-top: 10px;">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="Images/1.jpg" style="width:100%">
+  <div class="text">Rara Lake</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="Images/2.jpg" style="width:100%">
+  <div class="text">Kathmandu Valley</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="Images/3.jpg" style="width:100%">
+  <div class="text">Koshi River</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="Images/4.jpg" style="width:100%">
+  <div class="text">Annapurna Mounatain Range</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="Images/5.jpg" style="width:100%">
+  <div class="text">Tilicho Lake</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="Images/6.jpg" style="width:100%">
+  <div class="text">Paragliding Pokhara</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card" style="height: 500px;">
+
+      <div class="box" style="height:200px;">
+        <h3>Explore Nepal</h3>
+        <img src="Images/11.jpg" style="float: right; width: 220px; height: 170px;">
+        <p>Welcome visitors to celebrate the year 2020 which is chosen as national tourism year of Nepal after the year 2011 which was the primary authority tourism year of new Federal Democratic Republic of Nepal. The government and tourism department of Nepal authoritatively reported that Nepal will take year 2020 as "Visit Nepal 2020", a year committed to tourism industry of Nepal with vision of making a reasonable brand picture of Nepal as travel and vacationer destination, backing up the tourism foundations of Nepal, enhance the growth of tourism industry, and enhance locale tourism as supportable industry.<br> The legislature has wanted to accommodate more than one million visitors amid the year of “Visit Nepal 2020”.
+        Welcome visitors to celebrate the year 2020 which is chosen as national tourism year of Nepal after the year 2011 which was the primary authority tourism year of new Federal Democratic Republic of Nepal.
+  <details>
+  <summary>Read More</summary>
+        <p>If you believe that Nepal is only mountains and Mount Everest, then you're completely wrong. Nepal, especially when travelling with Exploring Nepal, is much, much more than that.If you want to ride a motorbike to the places that are not displayed on the map – it's possible. If you are a nature observer, willing to see rare bird species, such as Himalayan Monal, that's possible too.If you're a musician/artist willing to perform and looking for a venue – that also can be sorted.If you are interested in religions, and want to discover secrets of buddism and hinduism – it will be arranged.
+        Even swimming in the mountain river, without a boat or pontoon behind the stones – can be a part of your journey.And obviously, if you (only) want to go on a trek with an experienced guide and brave porter who will help you anyway you want – that will also be organised.A couple more things are available, but we will not go that far here – all these things, without any problem can be provided and organised by Magda and Sujan (with their great team) from Exploring Nepal.</p>
+    </details>
+      </div>
+    </div>
+    <div class="card" style="height: 380px;">
+      <h3>Visit Nepal 2020</h3>
+      <img src="images/visit nepal.jpg" style="float: right; width: 250px; height: 160px;">
+      <div class="box" style="height:200px;">
+       <p> Welcome visitors to celebrate the year 2020 which is chosen as national tourism year of Nepal after the year 2011 which was the primary authority tourism year of new Federal Democratic Republic of Nepal. The government and tourism department of Nepal authoritatively reported that Nepal will take year 2020 as "Visit Nepal 2020", a year committed to tourism industry of Nepal with vision of making a reasonable brand picture of Nepal as travel and vacationer destination, backing up the tourism foundations of Nepal, enhance the growth of tourism industry, and enhance locale tourism as supportable industry. The legislature has wanted to accommodate more than one million visitors amid the year of “Visit Nepal 2020”.</p>
+      <details>If you wanna know further details of all the programme of visit nepal 2020 follow the link belw
+        <summary>Read More</summary>
+
+        <a href="https://visitnepal2020.com">https://visitnepal2020.com</a>
+      </details>
+      </div>
+    </div>
+    <div class="card">
+      <h3>About Us</h3>
+
+      <div class="box" style="height:370px;">
+        <p>The vision, mission, and objective of the Neparest Crusier Group is the presentation of knowledge learned from class lectures.</p>
+  <h5>Our Team</h5>
+  <div class="gallery" style="width: 180px; height: 160px;">
+  <a target="_blank" href="Images/pra.jpg">
+    <img src="Images/pra.jpg" width="250px;" height="200px">
+  </a>
+  <div class="desc" style="text-align: left; font-size: 12px; width: 150p">
+   <p><b>Yogi Prakash Nath</b><br>
+    ID: M19W7192<br>
+    Phone:-07013858810</p>
+  </div>
+</div>
+<div class="gallery" style="width: 180px; height: 160px;">
+  <a target="_blank" href="Images/ghn.jpg">
+    <img src="Images/ghn.jpg" width="250px;" height="200px">
+  </a>
+  <div class="desc" style="text-align: left; font-size: 12px; width: 150p">
+   <p><b>Adhikari Ghanshayam</b><br>
+    ID: M19W7213<br>
+    Phone:-08046366040</p>
+  </div>
+</div><div class="gallery" style="width: 180px; height: 160px;">
+  <a target="_blank" href="Images/rp.jpg">
+    <img src="Images/rp.jpg" width="250px;" height="200px">
+  </a>
+  <div class="desc" style="text-align: left; font-size: 12px; width: 150p">
+   <p><b>Niure Ram Prasad</b><br>
+    ID: M19W7097<br>
+    Phone:-08035342875</p>
+  </div>
+</div><div class="gallery" style="width: 180px; height: 160px;">
+  <a target="_blank" href="Images/ub.jpg">
+    <img src="Images/ub.jpg" width="250px;" height="200px">
+  </a>
+  <div class="desc" style="text-align: left; font-size: 12px; width: 150p">
+   <p><b>Bharati Umesh</b><br>
+    ID: M19W7094<br>
+    Phone:-08094249995</p>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="rightcolumn">
+    <div class="card" style="height: 400px; text-align: center; background-color: #d1e4e6;">
+      <h2>Latest News</h2>
+      <div class="box" style="height:100px; font-size: 12px;" >
+        <h3>1.Soft Lunch of Visit Nepal 2020</h3>
+        <img src="Images/news-pokhara.jpg" style="float: left; width: 150px; height: 100px;">
+       A soft launch of Visit Nepal Year 2020 campaign was held in Pokhara on April 13. Prithivi Subba Gurung, Chief Minister of Gandaki province, initiated the soft launch. National Coordinator of VNY 2020 Suraj Vaidya, CEO of Nepal Tourism Board Deepak Raj Joshi,Aviation, along with tourism entrepreneurs and stakeholders were present during the inaugural event.
+
+    <h3>2. The Mt. Everest Fashion Runway</h3>
+       Australia, the US and Europe are organizing the Mt. Everest Fashion Runway.
+
+       <details>
+         <summary>Read More</summary>
+         <a href="https://visitnepal2020.com/events/the-mt-everest-fashion-runway">The Mt. Everest Fashion Runway</a>
+       </details>
+      </div>
+      </div>
+
+    <div class="card" style="height: 700px; text-align: center; background-color: #d1e4e6;">
+      <h2>Popular Post</h2>
+      <p style="float: left;">
+      
+      <h3>1.Mountain Flight in Nepal</h3>
+      <iframe width="350" height="180" src="https://www.youtube.com/embed/OD5_BNVnlKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+      <h3>1.Top Places to Visit</h3>
+      Some of nepals top places to visit in 2020 are
+      <details>
+         <summary>Read More</summary>
+         <a href="file:///Users/YogiWorld/Documents/KCGI%20JAPAN/2ND%20SEMISTER/Web%20Programme%20E1/final%202/Destination.html">The Mt. Everest Fashion Runway</a>
+      </details>
+    
+      <h3>3.Best Travel Partner of Nepal</h3>
+     <iframe src="images/21.png" style="visibility: 100%;"></iframe>
+         <summary>Read More</summary>
+         <a href="https://lhotseadventure.com/">Lhotse Adventure Pvt. ltd.</a>
+      </details>
+      
+   <div class="box" style="height: 170px; text-align: center; background-color: #d1e4e6;">
+      <h4>Follow Us</h4>
+  <i class="fab fa-facebook-square" style="font-size: 30px;"></i>
+  <i class="fab fa-twitter-square" style="font-size: 30px;"></i><a href=""></a>
+  <i class="fab fa-instagram-square" style="font-size: 30px;"></i><a href=""></a>
+  <i class="fab fa-youtube-square" style="font-size: 30px;"></i><a href=""></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+<div class="footer">
+<h5>Designed & Presented By: Neparest Cruiser Group. KCGI 2020 2<sup>nd</sup> Semister Copy Right: 2020</h5>s
+</div>
+
+</body>
+</html>
